@@ -1,0 +1,59 @@
+/* Main hero container */
+.hero-container {
+  min-height: 100vh;
+  margin: 10px;
+  
+
+}
+
+/* Hero content layout */
+.hero-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 2.5rem;
+  height: calc(100vh - 60px); /* Adjust for Navbar height */
+  background-image: url('/profile2.jpeg'); /* Background image for larger screens */
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: left 100px;
+}
+
+@media (max-width: 640px) {
+  .hero-content {
+    background-image: none; /* Remove background image on small screens */
+  }
+}
+
+/* Profile image for small screens */
+.profile-image {
+  display: none;
+  width: 70%; /* Adjust size as needed */
+  margin-top: 20px;
+  
+}
+
+@media (max-width: 640px) {
+  .profile-image {
+    display: block; /* Show image below text on small screens */
+    margin: 0 auto; /* Center image */
+  }
+}
+
+/* Text container styling */
+.text-container {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  padding-right: 20px;
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 2rem;
+}
+
+@media (max-width: 640px) {
+  .text-container {
+    font-size: 5rem; /* Smaller text size for small screens */
+    text-align: center;
+  }
+}

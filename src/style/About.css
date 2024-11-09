@@ -1,0 +1,37 @@
+/* Container styling */
+.container {
+  padding-top: 8rem; /* Equivalent to Tailwind pt-32 */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+  
+  /* Heading styling */
+  .about-heading {
+    font-size: 2.5rem; /* Default for text-4xl */
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  
+  @media (min-width: 768px) {
+    .about-heading {
+      font-size: 3rem; /* Equivalent to md:text-5xl */
+    }
+  }
+  
+  @media (min-width: 640px) {
+    .about-heading {
+      font-size: 3.75rem; /* Equivalent to sm:text-6xl */
+    }
+  }
+  
+  /* Text styling */
+  .about-text {
+    padding-top: 2rem; /* Equivalent to pt-8 */
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+    color: #fbbf24; 
+    line-height: 1.6;
+  }
+
+  
+  
+  

@@ -1,0 +1,83 @@
+/* Container styling */
+.container {
+    padding-top: 8rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Grid styling */
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem; /* Equivalent to gap-10 */
+  }
+  
+  @media (min-width: 768px) {
+    .contact-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* Info Section Styling */
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* Equivalent to space-y-8 */
+  }
+  
+  .contact-heading {
+    font-size: 3rem; /* Equivalent to text-5xl */
+    font-weight: bold;
+  }
+  
+  .contact-subtext {
+    color: #fbbf24; /* Equivalent to text-yellow-400 */
+    font-size: 1.125rem; /* Equivalent to text-[18px] */
+    padding-top: 0.5rem;
+  }
+  
+  .contact-detail {
+    display: flex;
+    gap: 0.75rem; /* Equivalent to gap-3 */
+    align-items: center;
+  }
+  
+  /* Form Section Styling */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* Equivalent to space-y-8 */
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem; /* Equivalent to gap-1 */
+  }
+  
+  .input, .textarea {
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #fbbf24;
+  }
+  
+  .textarea {
+    height: auto;
+    resize: none;
+  }
+  
+  /* Button Styling */
+  .submit-button {
+    background-color: #fbbf24;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: yellow;
+  }
+  
