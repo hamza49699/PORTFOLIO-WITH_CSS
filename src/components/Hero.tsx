@@ -12,13 +12,14 @@ const Hero: React.FC = () => {
           <div>
             <p>I AM</p>
             <p>HAMZA</p>
-            <h5>WEB DEVELOPER</h5>
+            <p>WEB DEVELOPER</p>
             
+          </div>
           </div>
         </div>
       </div>
      
-    </div>
+    
   );
 }
 

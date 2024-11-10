@@ -22,8 +22,8 @@ const Contact = () => {
 
         <div className="contact-form">
           <div className="form-field">
-            <label htmlFor="name">Name</label>
-            <input type="text" className="input" id="name" />
+            <label htmlFor="name" >Name</label>
+            <input type="text" className="input" id="name" required />
           </div>
           <div className="form-field">
             <label htmlFor="email">Email</label>

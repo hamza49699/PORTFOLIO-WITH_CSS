@@ -1,54 +1,42 @@
 
-/* Container styling */
+/* Skills Container styling */
 .skills-container {
-  padding-top: 8rem; 
-  max-width: 1200px; 
+  padding-top: 8rem;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-/* Heading styling */
+/* Skills Heading styling */
 .skills-heading {
-  font-size: 2.5rem; 
-  font-weight: bold; 
+  font-size: 2.5rem; /* Match text-4xl */
+  font-weight: bold;
   line-height: 1.2;
 }
 
 @media (min-width: 768px) {
   .skills-heading {
-    font-size: 3rem; 
+    font-size: 3rem; /* Match md:text-5xl */
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 640px) {
   .skills-heading {
-    font-size: 3.75rem; 
+    font-size: 3.75rem; /* Match sm:text-6xl */
   }
 }
 
-/* Text styling */
+/* Skills Text styling */
 .skills-description {
-  padding-top: 2rem; 
-  font-size: 1.5rem; 
-  color: #fbbf24; 
+  padding-top: 2rem;
+  font-size: 1.5rem; /* Match text-2xl */
+  color: #fbbf24;
   line-height: 1.6;
-}
-
-@media (min-width: 768px) {
-  .skills-description {
-    font-size: 1.75rem; 
-  }
-}
-
-@media (min-width: 1024px) {
-  .skills-description {
-    font-size: 2rem; 
-  }
 }
 
 /* Icons styling */
 .skills-icons {
-  padding-top: 2.5rem; 
-  font-size: 2rem; 
+  padding-top: 2.5rem;
+  font-size: 2rem;
   color: black;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -57,21 +45,21 @@
 
 @media (min-width: 768px) {
   .skills-icons {
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
     gap: 2rem;
   }
 }
 
 @media (min-width: 1024px) {
   .skills-icons {
-    font-size: 3rem; 
+    font-size: 3rem;
     gap: 2.5rem;
   }
 }
 
 /* Skill item styling */
 .skill-item {
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
   font-weight: bolder;
   display: flex;
   align-items: center;
@@ -80,12 +68,12 @@
 
 @media (min-width: 768px) {
   .skill-item {
-    font-size: 2rem; 
+    font-size: 2rem;
   }
 }
 
 @media (min-width: 1024px) {
   .skill-item {
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
   }
 }

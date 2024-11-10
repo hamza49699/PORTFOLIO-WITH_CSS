@@ -2,8 +2,6 @@
 .hero-container {
   min-height: 100vh;
   margin: 10px;
-  
-
 }
 
 /* Hero content layout */
@@ -18,18 +16,18 @@
   background-position: left 100px;
 }
 
+/* Remove background image for smaller screens */
 @media (max-width: 640px) {
   .hero-content {
-    background-image: none; /* Remove background image on small screens */
+    background-image: none;
   }
 }
 
 /* Profile image for small screens */
 .profile-image {
   display: none;
-  width: 70%; /* Adjust size as needed */
+  width: 70%;
   margin-top: 20px;
-  
 }
 
 @media (max-width: 640px) {
@@ -43,17 +41,43 @@
 .text-container {
   display: flex;
   justify-content: right;
-  align-items: right;
-  padding-right: 20px;
+  align-items: center;
+  padding-right: 30px;
   font-size: 100px;
   font-weight: bold;
   line-height: 1;
   padding: 2rem;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1024px) {
+  /* Adjust font size for tablets and smaller screens */
   .text-container {
-    font-size: 5rem; /* Smaller text size for small screens */
-    text-align: center;
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Adjust font size for medium screens (small tablets) */
+  .text-container {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 640px) {
+  /* Smaller text size and center-align for mobile */
+  .text-container {
+    font-size: 40px; /* Set a smaller size for mobile */
+    text-align: center; /* Center align text on small screens */
+    padding-left: 20px; /* Ensure left padding for mobile */
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further reduce font size on very small screens (e.g., mobile phones) */
+  .text-container {
+    font-size: 50px; /* Even smaller for very small screens */
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
