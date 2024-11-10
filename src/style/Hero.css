@@ -27,7 +27,7 @@
 .profile-image {
   display: none;
   width: 70%;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 @media (max-width: 640px) {
@@ -42,8 +42,8 @@
   display: flex;
   justify-content: right;
   align-items: center;
-  padding-right: 30px;
-  font-size: 100px;
+  padding-right: 20px;
+  font-size: 80px;
   font-weight: bold;
   line-height: 1;
   padding: 2rem;
